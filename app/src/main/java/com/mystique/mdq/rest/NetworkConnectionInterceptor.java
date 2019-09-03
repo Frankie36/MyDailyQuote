@@ -1,4 +1,4 @@
-package com.mystique.acme.rest;
+package com.mystique.mdq.rest;
 
 import java.io.IOException;
 

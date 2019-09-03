@@ -1,4 +1,4 @@
-package com.mystique.acme;
+package com.mystique.mdq;
 
 import android.app.Application;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.net.NetworkInfo;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import com.google.gson.GsonBuilder;
-import com.mystique.acme.rest.ApiInterface;
-import com.mystique.acme.rest.InternetConnectionListener;
-import com.mystique.acme.rest.NetworkConnectionInterceptor;
+import com.mystique.mdq.rest.ApiInterface;
+import com.mystique.mdq.rest.InternetConnectionListener;
+import com.mystique.mdq.rest.NetworkConnectionInterceptor;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;

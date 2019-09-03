@@ -1,6 +1,6 @@
-package com.mystique.acme.rest;
+package com.mystique.mdq.rest;
 
-import com.mystique.acme.model.FortuneResponse;
+import com.mystique.mdq.model.FortuneResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

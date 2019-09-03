@@ -1,4 +1,4 @@
-package com.mystique.acme;
+package com.mystique.mdq;
 
 import org.junit.Test;
 

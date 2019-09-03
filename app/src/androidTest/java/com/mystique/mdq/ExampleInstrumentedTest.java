@@ -1,4 +1,4 @@
-package com.mystique.acme;
+package com.mystique.mdq;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
-        assertEquals("com.mystique.acme", appContext.getPackageName());
+        assertEquals("com.mystique.mdq", appContext.getPackageName());
     }
 }

@@ -1,9 +1,9 @@
-package com.mystique.acme;
+package com.mystique.mdq;
 
 import android.os.Build;
 
-import com.mystique.acme.model.FortuneResponse;
-import com.mystique.acme.rest.ApiInterface;
+import com.mystique.mdq.model.FortuneResponse;
+import com.mystique.mdq.rest.ApiInterface;
 
 import org.junit.After;
 import org.junit.Rule;

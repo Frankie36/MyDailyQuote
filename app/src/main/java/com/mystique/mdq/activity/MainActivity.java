@@ -1,12 +1,12 @@
-package com.mystique.acme.activity;
+package com.mystique.mdq.activity;
 
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.mystique.acme.MainApplication;
-import com.mystique.acme.R;
-import com.mystique.acme.rest.IO;
-import com.mystique.acme.rest.InternetConnectionListener;
+import com.mystique.mdq.MainApplication;
+import com.mystique.mdq.R;
+import com.mystique.mdq.rest.IO;
+import com.mystique.mdq.rest.InternetConnectionListener;
 import com.santalu.emptyview.EmptyView;
 
 import androidx.appcompat.app.AppCompatActivity;

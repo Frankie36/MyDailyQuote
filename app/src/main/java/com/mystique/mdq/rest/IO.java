@@ -1,11 +1,11 @@
-package com.mystique.acme.rest;
+package com.mystique.mdq.rest;
 
 import android.view.View;
 import android.widget.TextView;
 
-import com.mystique.acme.MainApplication;
-import com.mystique.acme.R;
-import com.mystique.acme.model.FortuneResponse;
+import com.mystique.mdq.MainApplication;
+import com.mystique.mdq.R;
+import com.mystique.mdq.model.FortuneResponse;
 import com.santalu.emptyview.EmptyView;
 
 import retrofit2.Call;

@@ -1,4 +1,4 @@
-package com.mystique.acme.model;
+package com.mystique.mdq.model;
 
 import java.util.List;
 
