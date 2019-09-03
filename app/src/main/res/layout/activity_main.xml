@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.santalu.emptyview.EmptyView
+        android:id="@+id/emptMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ev_empty_button="@string/try_again"
+        app:ev_empty_buttonTextColor="@color/empty_button_text_color"
+        app:ev_empty_drawable="@drawable/ic_info"
+        app:ev_empty_drawableTint="@color/empty_drawable_tint"
+        app:ev_empty_text="@string/no_data"
+        app:ev_empty_textColor="@color/empty_text"
+        app:ev_empty_title="@string/error_unknown"
+        app:ev_empty_titleTextColor="@color/empty_title_text"
+        app:ev_error_backgroundColor="@color/err_background_color"
+        app:ev_error_button="@string/try_again"
+        app:ev_error_buttonTextColor="@color/err_button_text_color"
+        app:ev_error_drawable="@drawable/ic_sentiment_very_dissatisfied_black"
+        app:ev_error_drawableTint="@color/err_drawable_tint"
+        app:ev_error_text="@string/error_connection_timeout"
+        app:ev_error_textColor="@color/err_text_color"
+        app:ev_error_title="@string/error_connection_title"
+        app:ev_error_titleTextColor="@color/err_title_text_color"
+        app:ev_font="@font/font_arcon"
+        app:ev_gravity="center"
+        app:ev_loading_drawable="@drawable/ic_sentiment_satisfied_black"
+        app:ev_loading_drawableTint="@color/loading_drawable_tint"
+        app:ev_loading_title="@string/fetching_data"
+        app:ev_loading_type="circular"
+        app:ev_loading_titleTextColor="@color/load_text_color"
+        app:ev_loading_textColor="@color/load_text_color"
+        app:ev_loading_backgroundColor="@color/load_background_color"
+        app:ev_transition="auto"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".activity.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+
+        <include layout="@layout/content_main" />
+
+    </com.santalu.emptyview.EmptyView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

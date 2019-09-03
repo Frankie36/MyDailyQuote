@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Daily Quote</string>
+    <string name="action_settings">Settings</string>
+    <string name="try_again">Try Again</string>
+    <string name="fetching_data">Fetching your daily quote…</string>
+    <string name="no_data">With great power comes great responsibility \n\nBen Parker</string>
+</resources>

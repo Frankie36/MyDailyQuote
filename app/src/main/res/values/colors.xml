@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <color name="white">#fefefe</color>
+    <color name="material_red_500">#ef4437</color>
+
+    <color name="material_blue_100">#bdddf4</color>
+    <color name="material_blue_200">#95c7ec</color>
+    <color name="material_blue_300">#70b2e1</color>
+    <color name="material_blue_400">#569fd7</color>
+    <color name="material_blue_500">#478fcc</color>
+
+    <color name="body_text_1">#de000000</color>
+    <color name="body_text_2">#8a000000</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_1_inverse">#feffffff</color>
+
+    <color name="empty_button_text_color">@color/colorPrimaryDark</color>
+    <color name="empty_drawable_tint">@color/colorPrimary</color>
+    <color name="err_background_color">@color/material_red_500</color>
+    <color name="err_button_text_color">@color/white</color>
+    <color name="err_drawable_tint">@color/white</color>
+    <color name="err_text_color">@color/white</color>
+    <color name="err_title_text_color">@color/white</color>
+    <color name="loading_drawable_tint">@color/white</color>
+    <color name="empty_title_text">@color/body_text_1</color>
+    <color name="empty_text">@color/body_text_2</color>
+    <color name="load_background_color">@color/material_blue_100</color>
+    <color name="load_text_color">@color/body_text_1_inverse</color>
+</resources>
