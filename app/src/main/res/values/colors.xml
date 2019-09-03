@@ -30,4 +30,7 @@
     <color name="empty_text">@color/body_text_2</color>
     <color name="load_background_color">@color/material_blue_100</color>
     <color name="load_text_color">@color/body_text_1_inverse</color>
+
+    <color name="background">#F5F5F5</color>
+
 </resources>

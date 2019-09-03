@@ -1,12 +1,33 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="fontFamily">@font/font_arcon</item>
+
+        <item name="android:colorBackground">@color/background
+        </item><!--The background color appears behind scrollable content.-->
+        <item name="colorPrimaryVariant">@color/colorPrimary</item><!--A tonal variation of the primary color.-->
+        <item name="colorSecondary">@color/colorAccent
+        </item><!--The secondary branding color for the app, usually an accented complement to the primary branding color.-->
+        <item name="colorSurface">@color/white
+        </item><!--Surface colors affect surfaces of components, such as cards, sheets, and menus.-->
+        <item name="colorError">@color/material_red_500
+        </item><!--Error color indicates errors states, for components such as text fields-->
+        <item name="colorOnPrimary">@color/body_text_1_inverse
+        </item><!--A color that passes accessibility guidelines for text/iconography when drawn on top of the primary color.-->
+        <item name="colorOnSecondary">@color/white
+        </item><!--A color that passes accessibility guidelines for text/iconography when drawn on top of the secondary color.-->
+        <item name="colorOnSurface">@color/body_text_1
+        </item><!--A color that passes accessibility guidelines for text/iconography when drawn on top of the surface color.-->
+        <item name="colorOnError">@color/white
+        </item><!--A color that passes accessibility guidelines for text/iconography when drawn on top of the error color.-->
+        <item name="colorOnBackground">@color/body_text_1
+        </item><!--A color that passes accessibility guidelines for text/iconography when drawn on top of the background color.-->
+
     </style>
 
     <style name="AppTheme.NoActionBar">
